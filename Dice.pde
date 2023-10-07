@@ -36,7 +36,7 @@ class Dice {
   Dice(int x, int y) {
     myX = x;
     myY = y;
-    number = (int)(Math.random()*6 + 1);
+    number = ((int)(Math.random()*6 + 1));
   }
  
 
