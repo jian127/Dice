@@ -80,7 +80,7 @@ class Dice {
   void show() {
     noStroke();
     fill(255, 255, 255);
-    square(myX, myY, 40);
+    rect(myX, myY, 40,40);
     fill(0);
     rolls();
     fill(0, 0, 0);
